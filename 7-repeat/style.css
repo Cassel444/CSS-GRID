@@ -1,0 +1,7 @@
+@import url(./basic-style.css);
+
+.container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns:  300px repeat(4, 1fr) auto;
+}

@@ -1,0 +1,17 @@
+@import url(./basic-styles.css);
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 150px);
+    height: 500px;
+    border: 10px solid #000;
+    justify-items: start;
+    align-items: start;
+    /* justify-content: space-around;
+    align-content: space-evenly; */
+}
+.item-4 {
+    justify-self: center;
+    align-self: center;
+}
